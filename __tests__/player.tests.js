@@ -1,2 +1,9 @@
-// Test logic!
-// Probably want you import something you're using in the project-name.js
+import { Player } from '../src/player';
+
+describe("Robot", function (){
+  it("is off by default", function () {
+    const robot = new Robot
+
+    expect(robot.status()).toBe.equal("off")
+  })
+}
