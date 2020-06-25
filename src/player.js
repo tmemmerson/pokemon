@@ -1,5 +1,5 @@
 let Robot = function () {
-
+  this._status = "off"
 }
 
 Robot.prototype.status = function() {
@@ -7,7 +7,12 @@ Robot.prototype.status = function() {
 }
 
 Robot.prototype.power = function() {
-  this._status = "on"
+  if (this._status === "off") {
+    this._status = "on"
+  } else {
+    this._status = "off"
+  }
+  this._status="on"
 };
 
 module.exports = Robot
