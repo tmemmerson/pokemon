@@ -1,9 +1,9 @@
-import { Player } from '../src/player';
+let Robot = require('../src/player.js')
 
-describe("Robot", function (){
+describe("Robot", function () {
   it("is off by default", function () {
-    const robot = new Robot
+    let robot = new Robot
 
-    expect(robot.status()).toBe.equal("off")
+    expect(robot.status()).toBe("off")
   })
-}
+})
