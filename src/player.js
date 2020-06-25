@@ -1,7 +1,9 @@
-describe("Robot", function (){
-  it("is off by default", function () {
-    const robot = new Robot
+let Robot = function () {
 
-    expect(robot.status()).toBe.equal("off")
-  })
 }
+
+Robot.prototype.status = function() {
+    return "off"
+}
+
+module.exports = Robot
