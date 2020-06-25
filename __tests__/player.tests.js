@@ -7,3 +7,9 @@ describe("Player", function () {
     expect(robot.status()).toBe("off")
   })
 })
+
+if("turns on when you call power()", function() {
+  let robot = new Robot;
+  let status = robot.status()
+  expect(status).toBe("off")
+  })
