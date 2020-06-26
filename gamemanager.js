@@ -599,4 +599,4 @@ let GameManager = {
     getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
     getEnemy.innerHTML = '<img src="https://coding-assets.s3-us-west-2.amazonaws.com/pokemon/fight/' + enemy.enemyType.toLowerCase() + '.png" alt="' + enemy.enemyType + '" class="img-avatar"><div><h3>' + enemy.enemyType + '</h3><p class="health-enemy">Health: ' + enemy.health + '</p><p>Level: ' + enemy.level + '</p><p>Strength: ' + enemy.strength + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p></div>';
   }
-}
+} 
