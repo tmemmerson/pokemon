@@ -50,7 +50,7 @@ let GameManager = {
       case "clefable":
         player = new Player(classType, 100, 99, 50, 100, 100);
         break;
-      case "ninetails":
+      case "ninetales":
         player = new Player(classType, 100, 99, 50, 100, 100);
         break;
       case "wigglytuff":
@@ -279,7 +279,7 @@ let GameManager = {
     let enemy12 = new Enemy("Nidoqueen", 100, 99, 50, 100, 100);
     let enemy13 = new Enemy("Nidoking", 100, 99, 50, 100, 100);
     let enemy14 = new Enemy("Clefable", 100, 99, 50, 100, 100);
-    let enemy15 = new Enemy("Ninetails", 100, 99, 50, 100, 100);
+    let enemy15 = new Enemy("Ninetales", 100, 99, 50, 100, 100);
     let enemy16 = new Enemy("Wigglytuff", 100, 99, 50, 100, 100);
     let enemy17 = new Enemy("Golbat", 100, 99, 50, 100, 100);
     let enemy18 = new Enemy("Vileplume", 100, 99, 50, 100, 100);
