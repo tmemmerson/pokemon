@@ -250,7 +250,7 @@ let GameManager = {
         break;
     }
     let getInterface = document.querySelector(".interface");
-    getInterface.innerHTML = '<img src="../img/pokemon/fight/' + classType.toLowerCase() + '.png" class="img-avatar"><div><h3>' + classType + '</h3><p class="health-player">Health: ' + player.health + '</p><p>Level: ' + player.level + '</p><p>Strength: ' + player.strength + '</p><p>Agility: ' + player.agility + '</p><p>Speed: ' + player.speed + '</p></div>';
+    getInterface.innerHTML = '<img src="https://coding-assets.s3-us-west-2.amazonaws.com/pokemon/fight/' + classType.toLowerCase() + '.png" class="img-avatar"><div><h3>' + classType + '</h3><p class="health-player">Health: ' + player.health + '</p><p>Level: ' + player.level + '</p><p>Strength: ' + player.strength + '</p><p>Agility: ' + player.agility + '</p><p>Speed: ' + player.speed + '</p></div>';
   },
   setPreFight: function() {
     let getHeader = document.querySelector(".header");
@@ -597,6 +597,6 @@ let GameManager = {
     }
     getHeader.innerHTML = '<p>FIGHT!</p>';
     getActions.innerHTML = '<a href="#" class="btn-prefight" onclick="PlayerMoves.calcAttack()">Attack!</a>';
-    getEnemy.innerHTML = '<img src="../img/pokemon/fight/' + enemy.enemyType.toLowerCase() + '.png" alt="' + enemy.enemyType + '" class="img-avatar"><div><h3>' + enemy.enemyType + '</h3><p class="health-enemy">Health: ' + enemy.health + '</p><p>Level: ' + enemy.level + '</p><p>Strength: ' + enemy.strength + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p></div>';
+    getEnemy.innerHTML = '<img src="https://coding-assets.s3-us-west-2.amazonaws.com/pokemon/fight/' + enemy.enemyType.toLowerCase() + '.png" alt="' + enemy.enemyType + '" class="img-avatar"><div><h3>' + enemy.enemyType + '</h3><p class="health-enemy">Health: ' + enemy.health + '</p><p>Level: ' + enemy.level + '</p><p>Strength: ' + enemy.strength + '</p><p>Agility: ' + enemy.agility + '</p><p>Speed: ' + enemy.speed + '</p></div>';
   }
 }
