@@ -1,39 +1,64 @@
-# _PROJECT NAME_
 
-#### _SHORT DESCR_
+**EDIT** # _$TITLE$_
 
-#### By _**YOUR NAME HERE**_
+**EDIT** #### _$TAGLINE$_	
 
-## Description
+#### By _**Tristan Emmerson**_
 
-_Long deiscription._
+## **Description**
 
-### Specs
-| Spec | Input | Output |
-| :-------------     | :------------- | :------------- |
+**EDIT** _$DESCRIPTION-SECTION$_
+
+## **Specifications**
+
+**EDIT** $IMPORT TABLE HERE$
+
+## **Setup/Installation Requirements**
+
+*  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
+
+**EDIT** *  _Github [repository](https://github.com/tmemmerson/$REPO$.git)_
+
+**EDIT** *  _Live [demo](https://tmemmerson.github.io/$REPO$/)_
+
+*  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
+
+* Download [Visual Studio Code](https://code.visualstudio.com/) (v1.45)
+
+* Copy URL as shown in graphic below
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone.gif "How to clone repo")
+
+* Paste copied URL into empty field after clicking "clone repository" button in VSCode
+
+![cloning](https://coding-assets.s3-us-west-2.amazonaws.com/img/clone-github.gif "Cloning from Github within VSCode")
+
+* Select the local directory folder where you would like to add this repository
+
+* double-click index.html to open in preferred browser for viewing
+
+* to edit project, select "open folder/open folder in new window" after you have successfully cloned the repo to your local machine.
 
 
-## Setup/Installation Requirements
+## **Known Bugs**
 
-* _Visit the following link: _
-* _Clone the repository to your desired directory._
-* _OR_
-* _Visit here: _
+**EDIT** _**No Known Bugs:** _$DATE$_
 
+## **Support and contact details**
 
-## Known Bugs
+_Questions, comments and concerns can be directed to the author(s) [Tristan Emmerson](tristan@stickerslug.com)_
 
-_ _
-## Support and contact details
+## **Technologies Used**
 
-_Contact me at...._
+_**This was written in:** [Visual Studio Code](https://code.visualstudio.com/) (v1.45)_
 
-## Technologies Used
+_**Image work:** [Adobe Photoshop](https://www.adobe.com/products/photoshop.html/) (v2020)_
 
-_Technology!_
+**EDIT** $ADDT'L TECHNOLOGIES$
 
-### License
+## **License**
+![alt text][logo]
 
-*GPL license distribution*
+[logo]: https://img.shields.io/bower/l/bootstrap "MIT License"
 
-Copyright (c) 2020 **_Your name(s)_**
+Copyright (c) 2020 **_Tristan Emmerson, Stickerslug Inc._**
