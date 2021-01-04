@@ -17,9 +17,8 @@
 
 *  _Recommended browser for everything in life. [Google Chrome](https://www.google.com/chrome/)_.
 
-**EDIT** *  _Github [repository](https://github.com/tmemmerson/$REPO$.git)_
 
-**EDIT** *  _Live [demo](https://tmemmerson.github.io/$REPO$/)_
+**EDIT** *  _Live [demo](https://tmemmerson.github.io/pokemon/)_
 
 *  **Windows/Mac Users:** If modifying for personal use, dl Git [here](https://git-scm.com/downloads/) (v2.62.2)
 
